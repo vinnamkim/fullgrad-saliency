@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from math import isclose
 
-from saliency.tensor_extractor import FullGradExtractor
+from .tensor_extractor import FullGradExtractor
 
 class FullGrad():
     """
